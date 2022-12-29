@@ -64,16 +64,5 @@ $stmt->execute();
 
 // deleteProduct() method for deleting the data through checkbox ends
 
-// sku() method for checking the SKU ID starts
-
-public function sku($sku){
-
-    $stmt = $this->connect()->prepare('SELECT * FROM products WHERE sku = ?');
-    $stmt->execute([$sku]);
-    return $stmt->rowCount() > 0;
-
-}
-
- // sku() method for checking the SKU ID ends
 
 }
