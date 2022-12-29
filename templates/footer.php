@@ -5,7 +5,7 @@
 
 <!-- connection link for javascript file -->
 
- <script src="js/script2.js"></script>
+ <script src="js/script.js"></script>
 </body>
 </html>
 
